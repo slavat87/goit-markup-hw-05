@@ -319,9 +319,25 @@ a {
   margin-bottom: 50px;
 }
 
+.perform-img {
+  position: relative;
+}
+
+.perform-title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+
+  margin-top: 0;
+  margin-bottom: 0;
+
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
 .perform h3 {
   color: var(--second-text-color);
-  background-color: rgba(47, 48, 58, 0.8);
+  /*background-color: rgba(47, 48, 58, 0.8);*/
   font-family: Roboto;
   font-weight: bold;
   font-size: 14px;
