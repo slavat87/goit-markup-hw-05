@@ -135,8 +135,8 @@ a {
   border-radius: 2px;
 }
 
-/*.current:hover::after {
-  width: 100%;*/
+.current:hover::after {
+  width: 100%;
 }
 
 .site-nav .link:hover,
