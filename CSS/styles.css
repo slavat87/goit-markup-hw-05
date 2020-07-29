@@ -120,7 +120,21 @@ a {
 }
 
 .site-nav a {
+  position: relative;
   color: var(--primary-text-color);
+}
+
+.current::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 4px;
+  background-color: var(--accent-color);
+  border-radius: 2px;
+}
+
+.current:hover::after {
+  width: 100%;
 }
 
 .site-nav .link:hover,
