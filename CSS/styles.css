@@ -628,64 +628,9 @@ strong {
   fill: #ffffff;
 }
 
-/*.social-link a::after {*/
-/*розтягує фон на всю ширирину батьків*/
-/*display: inline-block;
-  /*outline: 2px solid tomato;*/
-/*content: "";
-  width: 44px;
-  height: 44px;
-  margin-right: 10px;
-  /*задає розмір картинки
-background-size: 20px;*/
-/*забирає повторення картинки
-background-repeat: no-repeat;*/
-/*вирівнює картинку по центру
-  background-position: center;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-}*/
-
-/*.social-link a:hover:after,
-.social-link a:focus:after {
-  color: var(--accent-color);
-}*/
-
 .social-link:last-child a {
   margin-right: 0;
 }
-
-/*.link-instagram::after {
-  background-image: url(../images_studio/instagram1.svg);
-}
-
-.link-twitter::after {
-  background-image: url(../images_studio/twitter1.svg);
-}
-
-.link-facebook::after {
-  background-image: url(../images_studio/facebook1.svg);
-}
-
-.link-linkedin::after {
-  background-image: url(../images_studio/linkedin1.svg);
-}*/
-
-/*.social-link:nth-child(1) a::after {
-  background-image: url(../images_studio/instagram1.svg);
-}
-
-.social-link:nth-child(2) a::after {
-  background-image: url(../images_studio/twitter1.svg);
-}
-
-.social-link:nth-child(3) a::after {
-  background-image: url(../images_studio/facebook1.svg);
-}
-
-.social-link:nth-child(4) a::after {
-  background-image: url(../images_studio/linkedin1.svg);
-}*/
 
 .footer .subscription {
   margin-top: 12px;
@@ -731,16 +676,6 @@ background-repeat: no-repeat;*/
   margin-left: 10px;
   fill: #ffffff;
 }
-
-/*.subscription .button::after {
-  content: "";
-
-  width: 24px;
-  height: 24px;
-  background-image: url(../images_studio/icon-send.svg);
-  background-size: contain;
-  margin-left: 10px;
-}*/
 
 /*-- Сторінка PORTFOLIO --*/
 
