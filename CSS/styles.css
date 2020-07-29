@@ -129,14 +129,15 @@ a {
   display: block;
   position: absolute;
   bottom: 0;
+  width: 47px;
   height: 4px;
   background-color: var(--accent-color);
   border-radius: 2px;
 }
 
 /*.current:hover::after {
-  width: 100%;
-}*/
+  width: 100%;*/
+}
 
 .site-nav .link:hover,
 .site-nav .link:focus {
