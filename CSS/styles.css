@@ -134,9 +134,9 @@ a {
   border-radius: 2px;
 }
 
-.current:hover::after {
+/*.current:hover::after {
   width: 100%;
-}
+}*/
 
 .site-nav .link:hover,
 .site-nav .link:focus {
