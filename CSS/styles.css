@@ -147,9 +147,7 @@ a {
   padding-bottom: 32px;
   margin-right: 50px;
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav li:last-child {
@@ -191,9 +189,7 @@ a {
 .contact a {
   color: var(--third-text-color);
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact .link:hover,
@@ -644,9 +640,7 @@ strong {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link a:hover {
@@ -753,9 +747,7 @@ strong {
 .portfolio-nav a {
   color: var(--primary-text-color);
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-nav .item:hover,
@@ -770,12 +762,6 @@ strong {
 .portfolio-nav .item:focus a {
   color: var(--second-text-color);
 }
-
-/*.site-nav .link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}*/
 
 .portfolio {
   margin: 0;
@@ -792,9 +778,11 @@ strong {
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
 
-  transition-property: box-shadow;
-  transition-duration: 1000ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  /*transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
+
+  /*transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 
 .portfolio .item:hover {
@@ -837,7 +825,7 @@ strong {
 
   transform: translateY(100%) translateY(1px);
 
-  transition: transform 900ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio .item:hover .portfolio-description {
