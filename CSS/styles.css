@@ -800,19 +800,20 @@ strong {
 
 .portfolio .item:hover .portfolio-description {
   opacity: 1;
+  transform: translateY(0);
 }
 
-.portfolio-img:hover::before {
+/*.portfolio-img:hover::before {
   opacity: 1;
-}
+}*/
 
 .portfolio .item:nth-child(3n) {
   margin-right: 0;
 }
 
-.portfolio .item:nth-child() {
+/*.portfolio .item:nth-child() {
   margin-bottom: 0;
-}
+}*/
 
 .portfolio-img {
   position: relative;
@@ -821,7 +822,7 @@ strong {
 }
 
 /* варіант перший який працював */
-.portfolio-img::before {
+/*.portfolio-img::before {
   content: "";
   position: absolute;
   display: inline-block;
@@ -833,11 +834,11 @@ strong {
   transform: translateY(100%);
 
   transition: transform 900ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+}*/
 
 /* варіант перший який працював */
-.portfolio .item:hover .portfolio-img::before {
-  transform: translateY(0);
+/*.portfolio .item:hover .portfolio-img::before {
+  transform: translateY(0);*/
 }
 
 .portfolio .portfolio-description {
@@ -860,7 +861,14 @@ strong {
   line-height: 1.6;
   letter-spacing: 0.03em;
 
-  opacity: 0;
+  /*opacity: 0;*/
+
+  background-color: rgba(33, 150, 243, 0.9);
+  opacity: 1;
+
+  transform: translateY(100%);
+
+  transition: transform 900ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio .desk {
