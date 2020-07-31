@@ -838,8 +838,8 @@ strong {
 
 /* варіант перший який працював */
 /*.portfolio .item:hover .portfolio-img::before {
-  transform: translateY(0);*/
-}
+  transform: translateY(0);
+}*/
 
 .portfolio .portfolio-description {
   position: absolute;
