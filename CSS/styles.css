@@ -736,6 +736,10 @@ strong {
   /* відступи від тексту*/
   padding: 6px 22px;
   text-align: center;
+
+  transition-property: background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-nav .item:last-child {
@@ -744,6 +748,10 @@ strong {
 
 .portfolio-nav a {
   color: var(--primary-text-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-nav .item:hover,
