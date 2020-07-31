@@ -119,11 +119,6 @@ a {
   margin-left: 85px;
 }
 
-.site-nav a {
-  position: relative;
-  color: var(--primary-text-color);
-}
-
 .current::after {
   content: "";
   display: block;
@@ -141,12 +136,16 @@ a {
 }
 
 .site-nav .link {
-  display: block;
+  position: relative;
+  color: var(--primary-text-color);
+
   padding-top: 32px;
   padding-bottom: 32px;
-
   margin-right: 50px;
-  display: flex;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav li:last-child {
@@ -187,10 +186,14 @@ a {
 
 .contact a {
   color: var(--third-text-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact a:hover,
-.contact a:focus {
+.contact .link:hover,
+.contact .link:focus {
   color: var(--accent-color);
 }
 
@@ -438,6 +441,11 @@ a {
   color: #afb1b8;
   background-color: var(--second-text-color);
   border-radius: 50%;
+
+  transition-property: color;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social a:hover {
@@ -628,6 +636,10 @@ strong {
 
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link a:hover {
