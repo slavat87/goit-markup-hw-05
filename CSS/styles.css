@@ -101,6 +101,10 @@ a {
 }
 
 /*-Розмітка шапки-*/
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
 .nav-wrapper {
   display: flex;
   align-items: center;
