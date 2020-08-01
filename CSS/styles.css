@@ -29,7 +29,7 @@ html {
 
 body {
   /* колір фону */
-  background-color: #ffffff;
+  background-color: var(--second-text-color);
   /*колір основного тексту*/
   color: var(--primary-text-color);
   font-family: Roboto;
